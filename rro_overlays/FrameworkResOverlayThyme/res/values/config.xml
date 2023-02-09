@@ -1247,8 +1247,8 @@
          difference value > 390 and secondary value < primary values -->
     <string-array name="config_secondaryLightSensorStrategy" translatable="false">
         <item>0,0</item>
+        <item>1,1000</item>
         <item>0,0</item>
-        <item>1,10</item>
     </string-array>
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
