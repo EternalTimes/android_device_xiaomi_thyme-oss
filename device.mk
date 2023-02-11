@@ -316,6 +316,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Kernel SU
+PRODUCT_PACKAGES += \
+    ksud
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
