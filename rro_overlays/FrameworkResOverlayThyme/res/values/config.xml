@@ -1231,26 +1231,6 @@
                * 1 -> MODE_FRONT             -->
     <integer name="config_secondaryLightSensorPosition">0</integer>
 
-    <!-- Define how to use the secondary sensor data, Strategy map below
-         Strategy                                                Enabled     Value
-         Use Secondary As Primary [Will override primary one]    1/0         Int(Useless)
-         Use Secondary When Value [sec > primary]                1/0         Int(How many delta Lux)
-         Use Secondary When Value [sec < primary]                1/0         Int(How many delta Lux)
-         
-         You can set items like this
-         <string-array name="config_secondaryLightSensorStrategy" translatable="false">
-             <item>0,0</item>
-             <item>0,0</item>
-             <item>1,390</item>
-         </string-array>
-         That means using secondary when the primary value and the secondary value have a difference and
-         difference value > 390 and secondary value < primary values -->
-    <string-array name="config_secondaryLightSensorStrategy" translatable="false">
-        <item>0,0</item>
-        <item>1,1000</item>
-        <item>0,0</item>
-    </string-array>
-
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
