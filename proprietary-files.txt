@@ -1115,7 +1115,7 @@ system_ext/lib64/vendor.qti.hardware.perf@2.0.so|dec91b3bfa50dee363d2ad8ded04b4d
 system_ext/lib64/vendor.qti.hardware.perf@2.1.so|2d30c7faf2d5abac93c8ae187ef72089020f4423
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so|2023cf8735118e3a311a7dc78984e8d05cb3fad4
 system_ext/lib64/vendor.qti.hardware.perf@2.3.so|f30fd5a38938a148425609dfce43bb7b8499d957
--system_ext/app/PerformanceMode/PerformanceMode.apk|c0f2334e5f071509f1151cc34793507cf395b1dc
+-system/framework/QPerformance.jar|c0f2334e5f071509f1151cc34793507cf395b1dc
 -system/framework/QXPerformance.jar|a5facd4b8769c08401efc45e2ca373966384063d
 -system/framework/UxPerformance.jar|14540e6c926a80f09f4ae972633cb740d5d9a75f
 -system_ext/app/PerformanceMode/PerformanceMode.apk|584042f8c751f49b2804dbdfeb35a53e491e2ace
